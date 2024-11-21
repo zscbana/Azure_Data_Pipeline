@@ -1,13 +1,51 @@
 # Azure Data Pipeline Documentation
 
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+  <img src="icons/DEPI.png" alt="ALX Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/Azure.png" alt="C Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/DataFactory.png" alt="Shell Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/SQL.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/Python.png" alt="Unix Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/Jupyter.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="icons/PowerBI.png" alt="Terminal Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+</div>  
+
 **Version**: 1.0  
 **Date**: 17 Oct 2024  
 
 ## Team Members
 - **Bassel Ashraf Ahmed** – Data Factory Implementation  
-- **Omar Hussein Mohamed** – Merging and Querying SQL Tables  
+- **Omar Hussein Mohamed (Me)** – Merging and Querying SQL Tables  
 - **Ahmed Tarek Mohamed** – Regression Analysis  
 - **Mohamed Tarek Abdelsattar** – Power BI Dashboard Insights  
+
+---
+
+---
+
+## Table of Contents  
+
+1. [Overview](#overview)  
+2. [Prerequisites](#prerequisites)  
+3. [Infrastructure Setup](#3-infrastructure-setup)  
+   - [3.1 Azure Resources](#31-azure-resources)  
+   - [3.2 SQL Database Schema](#32-sql-database-schema)  
+4. [Data Ingestion and Cleaning](#4-data-ingestion-and-cleaning)  
+   - [4.1 Data Ingestion](#41-data-ingestion)  
+   - [4.2 Data Cleaning](#42-data-cleaning)  
+5. [Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)  
+   - [5.1 Top 10 Countries by Transactions](#51-top-10-countries-by-transactions)  
+   - [5.2 Top 10 Most Sold Products](#52-top-10-most-sold-products)  
+   - [5.3 Monthly Sales Trend](#53-monthly-sales-trend)  
+   - [5.4 Total Price Distribution](#54-total-price-distribution)  
+6. [Data Factory Implementation](#6-data-factory-implementation)  
+   - [6.1 Key Components](#61-key-components)  
+   - [6.2 Execution Order](#62-execution-order)  
+7. [Merging and Querying SQL Tables](#7-merging-and-querying-sql-tables)  
+   - [7.1 SQL Schema](#71-sql-schema)  
+   - [7.2 Example Queries](#72-example-queries)  
+8. [Summary](#8-summary)  
+9. [Contributions](#9-contributions)  
 
 ---
 
