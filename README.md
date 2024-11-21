@@ -1,13 +1,13 @@
 # Azure Data Pipeline Documentation
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-  <img src="icons/DEPI.png" alt="ALX Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/Azure.png" alt="C Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/DataFactory.png" alt="Shell Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/SQL.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/Python.png" alt="Unix Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/Jupyter.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
-  <img src="icons/PowerBI.png" alt="Terminal Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/DEPI.png" alt="ALX Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/Azure.png" alt="C Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/DataFactory.png" alt="Shell Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/SQL.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/Python.png" alt="Unix Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/Jupyter.png" alt="Linux Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
+  <img src="Icons/PowerBI.png" alt="Terminal Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
 </div>  
 
 **Version**: 1.0  
