@@ -1,4 +1,4 @@
-# Azure Data Pipeline Documentation
+# Azure Data Pipeline
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
   <img src="Icons/DEPI.png" alt="ALX Icon" style="width: 40px; height: 40px; border-radius: 50%; margin: 5px;">
@@ -18,14 +18,6 @@
 - **Omar Hussein Mohamed (Me)** – Merging and Querying SQL Tables  
 - **Ahmed Tarek Mohamed** – Regression Analysis  
 - **Mohamed Tarek Abdelsattar** – Power BI Dashboard Insights  
-
----
-
----
-
-## Table of Contents  
-
- Here’s a Table of Contents (TOC) for your README file:
 
 ---
 
