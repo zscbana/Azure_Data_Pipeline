@@ -329,13 +329,16 @@ JOIN dbo.Products AS p ON ii.StockCode = p.StockCode;
 ```
 - Data Example
 ``` SELECT TOP 10 * FROM dbo.SalesSummary; ```
+![SQL](Screenshoots/top%2010.png)  
+
 - Example Queries
 - Total Sales per Customer:
 ```SELECT CustomerID, Country, SUM(TotalItemPrice) AS TotalSales
 FROM SalesSummary
 GROUP BY CustomerID, Country;
 ```
-- Total_Sales_per_Customer
+![SQL](Screenshoots/Total_Sales_per_Customer.png)  
+
 Top-Selling Products:
 ```
 SELECT StockCode, Description, SUM(Quantity) AS TotalQuantitySold
@@ -343,7 +346,8 @@ FROM SalesSummary
 GROUP BY StockCode, Description
 ORDER BY TotalQuantitySold DESC;
 ```
-- Top-Selling-Products
+![SQL](Screenshoots/Top-Selling-Products.png)  
+
 - Invoices in a Date Range:
 ```
 SELECT InvoiceNo, InvoiceDate, CustomerID, Country, SUM(TotalItemPrice) AS TotalInvoiceAmount
@@ -351,7 +355,7 @@ FROM SalesSummary
 WHERE InvoiceDate BETWEEN '2011-11-01' AND '2011-11-30'
 GROUP BY InvoiceNo, InvoiceDate, CustomerID, Country;
 ```
-- Invoices_within_a_Specific_Date Range
+![SQL](Screenshoots/Invoices_within_a_Specific_Date%20Range.png)  
 
 # 6. Regression Analysis
 - The regression analysis was performed using Python libraries (e.g., numpy, pandas, sklearn.svm) to predict sales trends.
