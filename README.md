@@ -179,7 +179,7 @@ data_clean.to_csv('D:/Microsoft Data Engineer/Graduation Project/cleaned_online_
 
 # 3. Exploratory Data Analysis (EDA)
 - In this stage, we will perform exploratory data analysis to gain insights into the structure and key patterns of the dataset. Here's an overview of the main analyses performed:
-- 1. Top 10 Countries by Number of Transactions
+## 1. Top 10 Countries by Number of Transactions
 - The first step is to explore which countries contribute the most transactions. We use a bar plot to visualize the top 10 countries in terms of the number of transactions.
 ```
 # Calculate the top 10 countries with the most transactions
@@ -200,6 +200,7 @@ plt.ylabel('Country')
 plt.show()
 
 ```
+![EDA](Screenshoots/1.png)  
 
 ## 2. Top 10 Most Sold Products
 - This analysis identifies the most popular products by the quantity sold. A bar plot displays the top 10 products based on the total quantity sold.
@@ -218,7 +219,7 @@ plt.ylabel('Product')
 plt.show()
 
 ```
-
+![EDA](Screenshoots/2.png)  
 ## 3. Monthly Sales Trend
 - To understand the sales performance over time, we group the data by month and calculate the total sales for each month. A line plot illustrates the monthly sales trend.
 ```
@@ -247,6 +248,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+![EDA](Screenshoots/3.png)  
+
 ## 4. Distribution of Total Prices (Violin Plot)
 - Lastly, a violin plot is used to visualize the distribution of the total prices per transaction. This helps to understand the spread and density of the total sales amount.
 ```
@@ -263,6 +266,7 @@ plt.xlabel('Total Price', fontsize=14)
 plt.show()
 
 ```
+![EDA](Screenshoots/4.png)  
 
 ## Summary:
 - Top 10 countries: The UK is the leading country by transaction count.
@@ -390,7 +394,7 @@ GROUP BY InvoiceNo, InvoiceDate, CustomerID, Country;
 - Visual Representation: Choosing the right charts and ensuring the clarity of insights required careful consideration.
 - User Interaction: Making the dashboard intuitive and user-friendly, with slicers for country and product filtering, was a key challenge.
 
-
+![PowerBI](Screenshoots/5.png)  
 
 # Conclusion
 - This project successfully ingested CSV data into an Azure SQL database using an Azure Data Factory pipeline, streamlined queries by merging SQL tables, applied regression analysis to predict trends, and provided actionable business insights through a Power BI dashboard. The combination of cloud-based data management, advanced analytics, and visualization tools demonstrated their effectiveness in driving data-informed decision-making.
