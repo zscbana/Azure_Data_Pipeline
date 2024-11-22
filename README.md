@@ -25,27 +25,40 @@
 
 ## Table of Contents  
 
-1. [Overview](#overview)  
-2. [Prerequisites](#prerequisites)  
-3. [Infrastructure Setup](#3-infrastructure-setup)  
-   - [3.1 Azure Resources](#31-azure-resources)  
-   - [3.2 SQL Database Schema](#32-sql-database-schema)  
-4. [Data Ingestion and Cleaning](#4-data-ingestion-and-cleaning)  
-   - [4.1 Data Ingestion](#41-data-ingestion)  
-   - [4.2 Data Cleaning](#42-data-cleaning)  
-5. [Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)  
-   - [5.1 Top 10 Countries by Transactions](#51-top-10-countries-by-transactions)  
-   - [5.2 Top 10 Most Sold Products](#52-top-10-most-sold-products)  
-   - [5.3 Monthly Sales Trend](#53-monthly-sales-trend)  
-   - [5.4 Total Price Distribution](#54-total-price-distribution)  
-6. [Data Factory Implementation](#6-data-factory-implementation)  
-   - [6.1 Key Components](#61-key-components)  
-   - [6.2 Execution Order](#62-execution-order)  
-7. [Merging and Querying SQL Tables](#7-merging-and-querying-sql-tables)  
-   - [7.1 SQL Schema](#71-sql-schema)  
-   - [7.2 Example Queries](#72-example-queries)  
-8. [Summary](#8-summary)  
-9. [Contributions](#9-contributions)  
+ Here’s a Table of Contents (TOC) for your README file:
+
+---
+
+# Table of Contents
+1. [Prerequisites](#prerequisites)  
+2. [Infrastructure Setup](#1-infrastructure-setup)  
+   - [Provisioned Azure Resources](#the-following-azure-resources-were-provisioned)  
+3. [Data Ingestion and Cleaning](#2-data-ingestion-and-cleaning)  
+   - [Data Ingestion](#21-data-ingestion)  
+   - [Data Cleaning](#22-data-cleaning)  
+     - [Handling Missing Values](#221-handling-missing-values)  
+     - [Removing Duplicates](#222-removing-duplicates)  
+     - [Handling Incorrect or Negative Quantities](#223-handling-incorrect-or-negative-quantities)  
+     - [Handling Invalid Stock Codes](#224-handling-invalid-stock-codes)  
+   - [Ensuring Consistency and Final Checks](#23-ensuring-consistency-and-final-checks)  
+     - [Fix Data Types](#231-fix-data-types)  
+     - [Recalculate Derived Columns](#232-recalculate-derived-columns)  
+     - [Final Checks and Exporting Cleaned Data](#233-final-checks-and-exporting-cleaned-data)  
+4. [Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)  
+   - [Top 10 Countries by Number of Transactions](#1-top-10-countries-by-number-of-transactions)  
+   - [Top 10 Most Sold Products](#2-top-10-most-sold-products)  
+   - [Monthly Sales Trend](#3-monthly-sales-trend)  
+   - [Distribution of Total Prices (Violin Plot)](#4-distribution-of-total-prices-violin-plot)  
+   - [EDA Summary](#summary)  
+5. [Data Factory Implementation](#4-data-factory-implementation)  
+   - [Pipeline Components](#pipeline-components)  
+   - [Data Transformation](#data-transformation)  
+   - [Execution Order](#execution-order)  
+6. [Merging and Querying SQL Tables](#5-merging-and-querying-sql-tables)  
+   - [Table Relationships](#table-relationships)  
+   - [SQL Commands](#sql-commands)  
+   - [Example Queries](#example-queries)  
+7. [Conclusion](#Conclusion)
 
 ---
 # Prerequisites
