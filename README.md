@@ -15,7 +15,7 @@
 
 ## Team Members
 - **Bassel Ashraf Ahmed** – Data Factory Implementation  
-- **Omar Hussein Mohamed (Me)** – Merging and Querying SQL Tables  
+- **Omar Hussein Mohamed** – Merging and Querying SQL Tables  
 - **Ahmed Tarek Mohamed** – Regression Analysis  
 - **Mohamed Tarek Abdelsattar** – Power BI Dashboard Insights  
 
